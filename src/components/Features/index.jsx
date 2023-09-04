@@ -12,7 +12,7 @@ export default function Features() {
     return (
         <section className="
             px-6 py-10 text-center flex flex-col gap-8
-            md:items-center
+            md:items-center md:py-10
             ">
             <TextSecundary text="Access Clipboard Anywhere" />
             <TextNormal text="Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks." />
@@ -25,7 +25,7 @@ export default function Features() {
             </div>
             <div className="
                 flex flex-col gap-10 py-7 items-center
-                md:grid md:grid-cols-3 md:gap-5
+                md:grid md:grid-cols-3 md:gap-5 md:px-16
                 ">
                 <Benefits Image={Blacklist} ImageDtl="Icone de Blacklist" Title="Create Blacklists" Text="Ensure sensitive information never makes its way to your clipboard by excluding certain sources." />
                 <Benefits Image={TeXT} ImageDtl="Icone de Text" Title="Main text snippets" Text="Remove unwanted formatting from copied text for a consistent look." />

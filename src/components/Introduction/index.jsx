@@ -1,5 +1,5 @@
-import ButtonIOS from "./ButtonIOS";
-import ButtonMac from "./ButtonMac";
+import ButtonGreen from "../Buttons/ButtonIOS";
+import ButtonPurple from "../Buttons/ButtonMac";
 import Logo from "./Logo";
 import TextPrincipal from "../Texts/TextPrincipal";
 
@@ -19,8 +19,8 @@ export default function Introduction() {
                 flex flex-col gap-3
                 md:flex-row justify-center
                 ">
-                <ButtonIOS content="Download for IOS" />
-                <ButtonMac content="Download for Mac" />
+                <ButtonGreen content="Download for IOS" />
+                <ButtonPurple content="Download for Mac" />
             </div>
         </section>
     )

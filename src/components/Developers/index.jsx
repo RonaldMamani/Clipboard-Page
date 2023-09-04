@@ -1,5 +1,5 @@
-import ButtonIOS from "../Introduction/ButtonIOS";
-import ButtonMac from "../Introduction/ButtonMac";
+import ButtonIOS from "../Buttons/ButtonIOS";
+import ButtonMac from "../Buttons/ButtonMac";
 import TextNormal from "../Texts/Text";
 import TextSecundary from "../Texts/TextSecundary";
 import Companies from "./Companies";
@@ -15,7 +15,7 @@ export default function Developers() {
         <section className="px-6 py-10 flex flex-col gap-16">
             <div className="
                 flex flex-col gap-14
-                md:grid md:grid-cols-5
+                md:grid md:grid-cols-5 md:px-12 md:py-10
                 ">
                 <Companies ImageCompany={Google} NameCompany="Logo da Google" />
                 <Companies ImageCompany={IBM} NameCompany="Logo da IBM" />
