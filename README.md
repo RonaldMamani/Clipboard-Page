@@ -2,6 +2,11 @@
 # Clipboard
 
 Projeto de Site baseado em Landing Page, onde é baseado em um site comercial utilizando diversas seções na pagina sobre informações do projeto, o site é totalmente responsivo para diversas telas, como Desktop, Tablet e Mobile.
+
+## Imagens
+
+![Clipboard](https://res.cloudinary.com/dz209s6jk/image/upload/v1655294619/Screenshots/kbdjuke2u56xsw34htnm.jpg)
+
 ## Stack utilizada
 
 **Front-end:** ReactJS, JavaScript, Vite, TailwindCSS, HTML, CSS
